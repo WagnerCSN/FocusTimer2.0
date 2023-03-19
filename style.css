@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --fc-heading: rgba(50, 50, 56, 1);
+    --bg-primary: white;
+    --ff-time: "Roboto", sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    min-height: 100vh;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    gap: 192px;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer{
+   
+}
+
+.vrapper-card{
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.timer{
+    display: grid;
+    justify-content: center;
+}
+.time span{
+    font-weight: 500;
+    font-size: 12.5rem;
+    line-height: 14.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--ff-time);
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.controls button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.card{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 13.8rem;
+    height: 15.2rem;
+    background: #E1E1E6;
+    border-radius: 2.4rem;
+   
+   
+    
+}
+.vrapper-card{
+    position: relative;
+}
+.open{
+    background: blue;
+    position:absolute;
+   
+}
+
+
+
