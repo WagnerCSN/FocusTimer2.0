@@ -9,6 +9,7 @@
 
     --fc-heading: rgba(50, 50, 56, 1);
     --bg-primary: white;
+    --bg-buttom: #E1E1E6;
     --ff-time: "Roboto", sans-serif;
 }
 
@@ -62,7 +63,7 @@ button{
     border-radius: 2.4rem;
     width: 13.8rem;
     height: 15.2rem;
-    background: #E1E1E6; 
+    background: var(--bg-buttom) ; 
     cursor: pointer;
 }
 
