@@ -66,9 +66,7 @@ button{
     cursor: pointer;
 }
 
-.card button:focus{
-    background: #02799D;
-}
+
 
 .card button:focus svg path{
     fill: white;
