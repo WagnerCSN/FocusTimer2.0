@@ -14,24 +14,19 @@
 
 body{
     font-size: 1.6rem;
-    min-height: 100vh;
 }
 
 main{
     height: 100vh;
     display: flex;
-    gap: 192px;
+    gap: 19.2rem;
     justify-content: center;
     align-items: center;
 }
 
-.timer{
-   
-}
-
 .vrapper-card{
     display: grid;
-    gap: 32px;
+    gap: 3.2rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -39,7 +34,9 @@ main{
 .timer{
     display: grid;
     justify-content: center;
+    padding: 2rem;
 }
+
 .time span{
     font-weight: 500;
     font-size: 12.5rem;
@@ -55,33 +52,26 @@ main{
     gap: 4rem;
 }
 
-.controls button{
+button{
     border: none;
     background: transparent;
     cursor: pointer;
 }
 
-.card{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+.card button{
+    border-radius: 2.4rem;
     width: 13.8rem;
     height: 15.2rem;
-    background: #E1E1E6;
-    border-radius: 2.4rem;
-   
-   
-    
-}
-.vrapper-card{
-    position: relative;
-}
-.open{
-    background: blue;
-    position:absolute;
-   
+    background: #E1E1E6; 
+    cursor: pointer;
 }
 
+.card button:focus{
+    background: #02799D;
+}
+
+.card button:focus svg path{
+    fill: white;
+}
 
 
