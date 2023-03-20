@@ -20,7 +20,7 @@ buttonIncreaseMinutes.addEventListener('click', function (){
 
 buttonDecreaseMinutes.addEventListener('click', function (){
     if(Number(minutesDisplay.textContent)>0){
-        minutesDisplay.textContent=Number(minutesDisplay.textContent)-1
+        minutesDisplay.textContent=Number(minutesDisplay.textContent)-5
         minutesDisplay.textContent= String(minutesDisplay.textContent).padStart(2,"0")
     }
 })
